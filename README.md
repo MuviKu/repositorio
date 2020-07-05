@@ -76,13 +76,13 @@ O próximo guia mostrará como atribuir e personalizar suas páginas de represen
 
 ## Adicionando pacotes primeiro pacote ao seu repositório
 
-#### 1. Adding a simple depiction page
+#### 1. Adicionando uma página de representação simples
 
-Go to the depictions folder and duplicate the folder `com.supermamon.oldpackage`.
-Rename the duplicate with the same name as your package name.
-There are 2 files inside the folder - `info.xml` and `changelog.xml`.
-Update the 2 files with information regading your package.
-The tags are pretty much self-explanatory.
+Vá para a pasta representações e duplique a pasta `com.supermamon.oldpackage`.
+Renomeie a duplicata com o mesmo nome que o nome do seu pacote.
+Existem 2 arquivos dentro da pasta - `info.xml` e` changelog.xml`.
+Atualize os 2 arquivos com informações sobre o seu pacote.
+As tags são praticamente auto-explicativas.
 Contact [@reposi3](https://twitter.com/reposi3) or [@supermamon](https://twitter.com/supermamon) for questions.
 
 `info.xml`.
