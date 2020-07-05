@@ -1,9 +1,9 @@
-# Reposi3
-A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootstrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
+# MuviKu
+Um modelo de repositório Cydia. Este modelo contém exemplos de como você pode criar facilmente páginas de representação sem replicar suas páginas html. As páginas são estilizadas usando o Bootstrap, que é realmente fácil de usar. Você pode ver como é a aparência 
+visitando este repositório de amostra no seu desktop ou telefone celular.A maioria dos dados desse repositório é armazenada em arquivos XML e carregada na página de representação dinamicamente. Veja o guia abaixo sobre como configurá-lo. Observe que este guia não cobre a criação de arquivos .deb, 
+mas cobrirá brevemente as descrições de atribuição.
 
-Most data for this repo is stored on XML files and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assiging depictions.
-
-## How to use this template
+## Como usar este modelo
 
 ### 1. Download
 
@@ -153,11 +153,10 @@ user:~/repo $ bzip2 Packages
 
 _Windows users, see [dpkg-scanpackages-py](https://github.com/supermamon/dpkg-scanpackages-py) or [scanpkg](https://github.com/mstg/scanpkg)._
 
-#### 5. Cydia at last!
+#### 5. Cydia finalmente!
 
-If you haven't done yet, go ahead and add your repo to Cydia.
-You should now be able to install your tweak into your own repo.
+Se você ainda não o fez, vá em frente e adicione seu repositório ao Cydia.Agora você deve conseguir instalar o seu tweak em seu próprio repositório.
 
-### Cleanup
+### Limpeza
 
-Just a cleanup step, remove the debs that came with this template and re-run the commands on step 3. You can keep the sample depictions for reference by they're not needed for your repo.
+Apenas uma etapa de limpeza, remova as debs que acompanham este modelo e execute novamente os comandos na etapa 3. Você pode manter as representações de amostra para referência, pois elas não são necessárias para o seu repositório.
