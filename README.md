@@ -7,22 +7,22 @@ mas cobrirá brevemente as descrições de atribuição.
 
 ### 1. Download
 
-If you are *not* hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
+Se você não está * hospedando seu repositório no [Github Pages] (https://pages.github.com/), pode fazer o download do arquivo zip [aqui] (https://github.com/supermamon/Reposi3/archive /master.zip) e extraia para uma subpasta no seu site.
 
-There are 2 options for those using [Github Pages](https://pages.github.com/).
+Existem 2 opções para quem usa [Páginas do Github] (https://pages.github.com/).
 
-A. If you want to use your root `username.github.io` as your repo, fork this repo and rename it to `username.github.io`. So when adding it in Cydia, use `https://username.github.io`.
+A. Se você deseja usar seu root `nomedeusuario.github.io` como seu repositório, bifurque-o e renomeie-o para` nomedeusuario.github.io`. Portanto, ao adicioná-lo no Cydia, use `https: // nomedeusuário.github.io`.
 
-B. If you want to use a subfolder for your existing `username.github.io` as your repo (example `username.github.io/repo`), fork this repo and rename it to `repo`. So when adding it in Cydia, use `https://username.github.io/repo`.
+B. Se você deseja usar uma subpasta para o seu `nome_de_usuário.github.io 'existente como seu repositório (exemplo: nome_de_usuário.github.io / repo`), bifurque esse repositório e renomeie-o para` repo`. Portanto, ao adicioná-lo no Cydia, use `https: // nomedeusuário.github.io / repo`.
 
-You can change `repo` to anything you want, like `cydia` for example. So your repo url would be `https://username.github.io/cydia`.
+Você pode alterar o `repo` para o que quiser, como o` cydia`, por exemplo. Portanto, seu URL de repositório seria `https: // nomedeusuário.github.io / cydia`.
 
 
 #### 2. Personalize
 
-**Release File**
+**Liberar arquivo**
 
-Edit `Release` file. Modify the items pointed by `<--`
+Edite o arquivo `Release`. Modifique os itens apontados por `<--`
 
     Origin: Reposi3  <--
     Label: Reposi3   <--
@@ -33,7 +33,7 @@ Edit `Release` file. Modify the items pointed by `<--`
     Components: main
     Description: Reposi3 - a cydia repo template  <--
 
-**Branding**
+**Marca**
 
 
 
@@ -47,7 +47,7 @@ Edit `index.html`
 
 **Page Footers**
 
-This data are the links that appear at the bottom of every depication. The data is stored in `repo.xml` at the root folder of your repo.
+Esses dados são os links que aparecem na parte inferior de cada representação. Os dados são armazenados em `repo.xml` na pasta raiz do seu repo.
 
 ```xml
 <repo>
@@ -67,14 +67,14 @@ This data are the links that appear at the bottom of every depication. The data 
 ```
 
 
-#### 3. Your repo is _almost_ ready.
-At this point your repo is basically ready to be added into Cydia.
-You can also visit your repo's homepage by going to `https://username.github.io/repo/`.
-It will come with 2 sample packages, Old Package and New Package.
-Each of the packages have a link on this page pointing to their depictions.
-Next guide will show you how to assign and customize your depiction pages.
+#### 3. Seu repo está quase pronto.
+Nesse ponto, seu repositório está basicamente pronto para ser adicionado ao Cydia.
+Você também pode visitar a página inicial do seu repositório, acessando `https://muviku.github.io/repositorio/`.
+Ele virá com 2 pacotes de amostra, Pacote Antigo e Novo Pacote.
+Cada um dos pacotes possui um link nesta página apontando para suas representações.
+O próximo guia mostrará como atribuir e personalizar suas páginas de representação.
 
-## Adding packages first package to your repo
+## Adicionando pacotes primeiro pacote ao seu repositório
 
 #### 1. Adding a simple depiction page
 
